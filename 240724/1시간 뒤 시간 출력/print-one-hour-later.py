@@ -1,2 +1,2 @@
-h,m = map(int,input().split())
-print(f"{h}:{m}")
+h,m = map(int,input().split(':'))
+print(f"{h+1}:{m}")
