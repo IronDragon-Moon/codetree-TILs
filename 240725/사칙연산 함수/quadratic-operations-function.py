@@ -17,3 +17,5 @@ elif yun == '*':
     print(f"{a} * {b} = {gop(a,b)}")
 elif yun == '/':
     print(f"{a} / {b} = {nanugi(a,b)}")
+else:
+    print("False")
