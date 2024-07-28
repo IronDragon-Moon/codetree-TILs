@@ -2,7 +2,7 @@ N = int(input())
 def star(N):
     if N==0:
         return
-    print('*'*N)
+    print('* '*N)
     star(N-1)
-    print('*'*N)
+    print('* '*N)
 star(N)
