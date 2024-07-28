@@ -7,5 +7,5 @@ def froma1_toa2(a,b):
     return result
 
 for i in range(m):
-    a,b = map(int().split())
+    a,b = map(int,input().split())
     print(froma1_toa2(a,b))
